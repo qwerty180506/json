@@ -1,9 +1,26 @@
 {
     "total_channels": 23,
-    "successful_channels": 0,
-    "failed_channels": 23,
-    "timestamp": "2026-06-11 19:45:05",
-    "successful_results": [],
+    "successful_channels": 2,
+    "failed_channels": 21,
+    "timestamp": "2026-06-11 20:00:12",
+    "successful_results": [
+        {
+            "channel_id": "1109",
+            "channel_name": "Star Sports 2 HD",
+            "status": "success",
+            "http_code": 200,
+            "final_url": "https://game.denver69.fun/Jtv/VrPvVw/Jtv.mpd?id=1109",
+            "playlist_data": "API failed: invalid response"
+        },
+        {
+            "channel_id": "1984",
+            "channel_name": "Star Sports 2 Hindi HD",
+            "status": "success",
+            "http_code": 200,
+            "final_url": "https://game.denver69.fun/Jtv/VrPvVw/Jtv.mpd?id=1984",
+            "playlist_data": "API failed: invalid response"
+        }
+    ],
     "failed_results": [
         {
             "channel_id": "460",
@@ -86,16 +103,6 @@
             }
         },
         {
-            "channel_id": "1109",
-            "channel_name": "Star Sports 2 HD",
-            "status": "failed",
-            "error_details": {
-                "http_code": 450,
-                "error": "",
-                "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD2_BTS/WDVLive/index.mpd?__hdnea__=st=1781186154~exp=1781207754~acl=/bpk-tv/Star_Sports_HD2_BTS/WDVLive/*~hmac=cc3cde3c325b931910bc4da2a9ecf3ef215ca2b8bb07ceb2c10c8c8fa72fdf35"
-            }
-        },
-        {
             "channel_id": "1141",
             "channel_name": "Star Sports 2",
             "status": "failed",
@@ -103,16 +110,6 @@
                 "http_code": 450,
                 "error": "",
                 "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_2_BTS/WDVLive/index.mpd?__hdnea__=st=1781191924~exp=1781213524~acl=/bpk-tv/Star_Sports_2_BTS/WDVLive/*~hmac=49c3048bf25d6e37b77ce39ae6167e00b4fd5c7fe9801ac3f161d92c588ad8bb"
-            }
-        },
-        {
-            "channel_id": "1984",
-            "channel_name": "Star Sports 2 Hindi HD",
-            "status": "failed",
-            "error_details": {
-                "http_code": 450,
-                "error": "",
-                "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/index.mpd?__hdnea__=st=1781186194~exp=1781207794~acl=/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/*~hmac=639ee238e57c61f863284e3d378b5491115a6d2e02042eb3e5f5db9bdfdd9223"
             }
         },
         {
