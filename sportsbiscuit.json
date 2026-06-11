@@ -1,18 +1,9 @@
 {
     "total_channels": 23,
-    "successful_channels": 1,
-    "failed_channels": 22,
-    "timestamp": "2026-06-11 16:16:47",
-    "successful_results": [
-        {
-            "channel_id": "1124",
-            "channel_name": "Star Sports 1 Tamil",
-            "status": "success",
-            "http_code": 200,
-            "final_url": "https://game.denver69.fun/Jtv/VrPvVw/Jtv.mpd?id=1124",
-            "playlist_data": "API failed: invalid response"
-        }
-    ],
+    "successful_channels": 0,
+    "failed_channels": 23,
+    "timestamp": "2026-06-11 16:30:06",
+    "successful_results": [],
     "failed_results": [
         {
             "channel_id": "460",
@@ -152,6 +143,16 @@
                 "http_code": 450,
                 "error": "",
                 "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1781194536~exp=1781216136~acl=/bpk-tv/Star_Sports_1_Tamil_HD_BTS/WDVLive/*~hmac=8d84e9ced8147508da489512b2b5d321be92b5c828fb842f717649ac7f49a8f5"
+            }
+        },
+        {
+            "channel_id": "1124",
+            "channel_name": "Star Sports 1 Tamil",
+            "status": "failed",
+            "error_details": {
+                "http_code": 450,
+                "error": "",
+                "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/index.mpd?__hdnea__=st=1781194542~exp=1781216142~acl=/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/*~hmac=62dd6b6f1540d9ce1b27b45743c6d5014c2ba0df3b3d3606ad2cbf1f725fd997"
             }
         },
         {
