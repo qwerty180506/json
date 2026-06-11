@@ -1,9 +1,17 @@
 {
     "total_channels": 23,
-    "successful_channels": 5,
-    "failed_channels": 18,
-    "timestamp": "2026-06-11 21:15:47",
+    "successful_channels": 6,
+    "failed_channels": 17,
+    "timestamp": "2026-06-11 21:30:55",
     "successful_results": [
+        {
+            "channel_id": "460",
+            "channel_name": "Star Sports Select 1 HD",
+            "status": "success",
+            "http_code": 200,
+            "final_url": "https://game.denver69.fun/Jtv/VrPvVw/Jtv.mpd?id=460",
+            "playlist_data": "API failed: invalid response"
+        },
         {
             "channel_id": "1123",
             "channel_name": "Star Sports Select 1",
@@ -46,16 +54,6 @@
         }
     ],
     "failed_results": [
-        {
-            "channel_id": "460",
-            "channel_name": "Star Sports Select 1 HD",
-            "status": "failed",
-            "error_details": {
-                "http_code": 450,
-                "error": "",
-                "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/index.mpd?__hdnea__=st=1781191206~exp=1781212806~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=0d37d10bf69b31fbc83f02d678ba9b929958badb0e9888383329297e5e739eb7"
-            }
-        },
         {
             "channel_id": "461",
             "channel_name": "Star Sports Select 2 HD",
