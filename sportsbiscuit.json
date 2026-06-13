@@ -1,9 +1,18 @@
 {
     "total_channels": 23,
-    "successful_channels": 0,
-    "failed_channels": 23,
-    "timestamp": "2026-06-13 18:15:07",
-    "successful_results": [],
+    "successful_channels": 1,
+    "failed_channels": 22,
+    "timestamp": "2026-06-13 18:25:31",
+    "successful_results": [
+        {
+            "channel_id": "1108",
+            "channel_name": "Star Sports 1 Hindi HD",
+            "status": "success",
+            "http_code": 200,
+            "final_url": "https://game.denver69.fun/Jtv/VrPvVw/Jtv.mpd?id=1108",
+            "playlist_data": "API failed: invalid response"
+        }
+    ],
     "failed_results": [
         {
             "channel_id": "460",
@@ -66,16 +75,6 @@
             }
         },
         {
-            "channel_id": "1108",
-            "channel_name": "Star Sports 1 Hindi HD",
-            "status": "failed",
-            "error_details": {
-                "http_code": 450,
-                "error": "",
-                "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/index.mpd?__hdnea__=st=1781353394~exp=1781374994~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=86ab15fb2419c35cdd7e83a3c21f42d9102d2f90b96366a0d41087154aeb9c77"
-            }
-        },
-        {
             "channel_id": "362",
             "channel_name": "Star Sports 1 Hindi",
             "status": "failed",
@@ -92,7 +91,7 @@
             "error_details": {
                 "http_code": 450,
                 "error": "",
-                "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD2_BTS/WDVLive/index.mpd?__hdnea__=st=1781353473~exp=1781375073~acl=/bpk-tv/Star_Sports_HD2_BTS/WDVLive/*~hmac=36fe9944747c5a43bb8bd730c753ef2b513725b01c341736597e4c3c35ce9d63"
+                "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD2_BTS/WDVLive/index.mpd?__hdnea__=st=1781375123~exp=1781396723~acl=/bpk-tv/Star_Sports_HD2_BTS/WDVLive/*~hmac=bc7b7254bdde8a76e49e8d3985dd674772ccf3282bed740fa9626ae9421abd2c"
             }
         },
         {
@@ -112,7 +111,7 @@
             "error_details": {
                 "http_code": 450,
                 "error": "",
-                "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/index.mpd?__hdnea__=st=1781353482~exp=1781375082~acl=/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/*~hmac=1bfd031dccfb753daae5c34f3953aa8925d7ebba099e44072d0a60d4ff163bca"
+                "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/index.mpd?__hdnea__=st=1781375128~exp=1781396728~acl=/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/*~hmac=03ca740830c144973244aecd6b07ca34b3db968d18b11564dfde4424a1888a33"
             }
         },
         {
