@@ -1,18 +1,9 @@
 {
     "total_channels": 23,
-    "successful_channels": 1,
-    "failed_channels": 22,
-    "timestamp": "2026-06-21 14:45:31",
-    "successful_results": [
-        {
-            "channel_id": "1650",
-            "channel_name": "Star Sports 1 Kannada",
-            "status": "success",
-            "http_code": 200,
-            "final_url": "https://game.denver69.fun/Jtv/PJSi84/Jtv.mpd?id=1650",
-            "playlist_data": "API failed: invalid response"
-        }
-    ],
+    "successful_channels": 0,
+    "failed_channels": 23,
+    "timestamp": "2026-06-21 15:00:08",
+    "successful_results": [],
     "failed_results": [
         {
             "channel_id": "460",
@@ -182,6 +173,16 @@
                 "http_code": 450,
                 "error": "",
                 "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_BTS/WDVLive/index.mpd?__hdnea__=st=1782041726~exp=1782063326~acl=/bpk-tv/Star_Sports_1_Telugu_BTS/WDVLive/*~hmac=7903b15cae3a49238710b58300661f3bcd9c62eddab09b30491ecf7ec4089b8f"
+            }
+        },
+        {
+            "channel_id": "1650",
+            "channel_name": "Star Sports 1 Kannada",
+            "status": "failed",
+            "error_details": {
+                "http_code": 450,
+                "error": "",
+                "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/WDVLive/index.mpd?__hdnea__=st=1782053131~exp=1782074731~acl=/bpk-tv/Star_Sports_1_Kannada_BTS/WDVLive/*~hmac=7db610cc24cbc234cb4f833a7392391eea22f6062bf193db6ea618f31b8cc5a4"
             }
         },
         {
