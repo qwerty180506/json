@@ -90,17 +90,17 @@
     "id": "291",
     "name": "SET HD",
     "group": "Entertainment",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png",
+    "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png",
     "user_agent": "@shoebbro",
     "type": "dash",
-    "mpd_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Sony_HD_MOB/WDVLive/index.mpd",
+    "mpd_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Sony_HD_BTS/WDVLive/index.mpd",
+    "headers": {
+      "cookie": "__hdnea__=st=1783701049~exp=1783722649~acl=/bpk-tv/Sony_HD_BTS/WDVLive/*~hmac=a84a65c58ebf07048bee6c2847f47d44638a992d2da84bcbbdf2cbf0c46a4559"
+    },
+    "expires_in": null,
     "clearkey": {
       "f5c58e6bf0a2deb018fe87a934a6a1d0": "ebd37e936867596a868cc085070e4cd5"
-    },
-    "headers": {
-      "cookie": "__hdnea__=st=1783708248~exp=1783729848~acl=/*~hmac=baf9ad2206b8eb3ec6b25ce02535c62bb024a77d0ef8c62a8c18a1e0cbf53ffb"
-    },
-    "expires_in": null
+    }
   },
   {
     "id": "472",
