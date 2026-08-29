@@ -1,8 +1,8 @@
 {
   "total_channels": 36,
-  "successful_channels": 17,
-  "failed_channels": 19,
-  "timestamp": "2026-08-29 11:19:01",
+  "successful_channels": 16,
+  "failed_channels": 20,
+  "timestamp": "2026-08-29 11:34:37",
   "successful_results": [
     {
       "channel_id": "1115",
@@ -85,14 +85,6 @@
       "playlist_data": "API failed: invalid response"
     },
     {
-      "channel_id": "1651",
-      "channel_name": "Star Sports 1 Telugu",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1651",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
       "channel_id": "1650",
       "channel_name": "Star Sports 1 Kannada",
       "status": "success",
@@ -149,7 +141,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1787998981~exp=1788002581~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=2c20385cedc9c7b9b2e0912726af7afbb0e43924a419581db7d2e4ff7780fcb9"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788002590~exp=1788006190~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=a25891330122bae18f0b5f4bb36541fc02067bc649f6657cadbe8df765eff267"
       }
     },
     {
@@ -209,7 +201,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd?__hdnea__=st=1787998662~exp=1788002262~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=d5c87d9366dcd7c083e4fed374b49496bd03b3e79dc50c13067183efc160bcd4"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd?__hdnea__=st=1788002204~exp=1788005804~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=c2a77ab5e2d6aeb7db638a7f1fe1727078f0ea3a08691f47757ac575826ef551"
       }
     },
     {
@@ -239,7 +231,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd?__hdnea__=st=1787999074~exp=1788002674~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=f38c80580cfc63ec1e4ea8fca90fada48c36c130b121432a4f0b97e7be130663"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd?__hdnea__=st=1788002612~exp=1788006212~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=aa1eec4f838f11c30a4d8b3313eadf12d7f7dcb027fc7b637ce93320bc677fab"
       }
     },
     {
@@ -249,7 +241,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1787998719~exp=1788002319~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=2822958f5daae7b2b3eb22b93ec1ad441b7e6c80291dcecb3d940c3c453d37ce"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788002358~exp=1788005958~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=abc80a6d17bf2aae16b355f09b12fe2e294a5af1381e3701662c7b190bebb73d"
       }
     },
     {
@@ -327,9 +319,19 @@
       "channel_name": "Star Sports 1 Tamil",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/index.mpd?__hdnea__=st=1787990754~exp=1788012354~acl=/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/*~hmac=9ba94a10196e172d6442a39656e37162f9eca7d441e9ec6d406f406b03ff8b03"
+        "http_code": 0,
+        "error": "Connection timed out after 10000 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1124"
+      }
+    },
+    {
+      "channel_id": "1651",
+      "channel_name": "Star Sports 1 Telugu",
+      "status": "failed",
+      "error_details": {
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1651"
       }
     }
   ]
