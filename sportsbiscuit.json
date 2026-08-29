@@ -2,16 +2,8 @@
   "total_channels": 36,
   "successful_channels": 16,
   "failed_channels": 20,
-  "timestamp": "2026-08-29 11:34:37",
+  "timestamp": "2026-08-29 11:40:49",
   "successful_results": [
-    {
-      "channel_id": "1115",
-      "channel_name": "Star Movies",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1115",
-      "playlist_data": "API failed: invalid response"
-    },
     {
       "channel_id": "3276",
       "channel_name": "Star Movies Select",
@@ -82,6 +74,14 @@
       "status": "success",
       "http_code": 200,
       "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=3278",
+      "playlist_data": "API failed: invalid response"
+    },
+    {
+      "channel_id": "1651",
+      "channel_name": "Star Sports 1 Telugu",
+      "status": "success",
+      "http_code": 200,
+      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1651",
       "playlist_data": "API failed: invalid response"
     },
     {
@@ -159,9 +159,9 @@
       "channel_name": "Zee TV HD",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1788001722~exp=1788005322~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=38a695e071b235c26d836ad562cbaa8129f757a2ad6dbbdb344f2fb43f8f7d8e"
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=167"
       }
     },
     {
@@ -179,9 +179,9 @@
       "channel_name": "And TV HD",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1787999444~exp=1788003044~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=4e0757abbf815b3dd32293b1bd744d2cdcd2c6dae79d837793f35b69306af32a"
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=472"
       }
     },
     {
@@ -189,9 +189,9 @@
       "channel_name": "Travelxp HD Hindi",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd?__hdnea__=st=1788001747~exp=1788005347~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=4291a111ef91863687b104686e9ac4ef3f8bf676ab6e50aa22caea3c62eba181"
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=562"
       }
     },
     {
@@ -205,13 +205,23 @@
       }
     },
     {
+      "channel_id": "1115",
+      "channel_name": "Star Movies",
+      "status": "failed",
+      "error_details": {
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1115"
+      }
+    },
+    {
       "channel_id": "1332",
       "channel_name": "Nat Geo Wild HD",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788002008~exp=1788005608~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=2bd9b00dc62d78b9222d079e17244f70ccf5c17aa83e172f155df2c9cbf77ed1"
+        "http_code": 0,
+        "error": "Connection timed out after 10000 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1332"
       }
     },
     {
@@ -219,9 +229,9 @@
       "channel_name": "National Geographic HD",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788001412~exp=1788005012~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=75cd633268ebe72ee1b321fbfc573ba5d3f63dfb46c4b3a6e3627ec2a02dd939"
+        "http_code": 0,
+        "error": "Connection timed out after 10000 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1335"
       }
     },
     {
@@ -319,19 +329,9 @@
       "channel_name": "Star Sports 1 Tamil",
       "status": "failed",
       "error_details": {
-        "http_code": 0,
-        "error": "Connection timed out after 10000 milliseconds",
-        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1124"
-      }
-    },
-    {
-      "channel_id": "1651",
-      "channel_name": "Star Sports 1 Telugu",
-      "status": "failed",
-      "error_details": {
-        "http_code": 0,
-        "error": "Connection timed out after 10001 milliseconds",
-        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1651"
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/index.mpd?__hdnea__=st=1787990754~exp=1788012354~acl=/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/*~hmac=9ba94a10196e172d6442a39656e37162f9eca7d441e9ec6d406f406b03ff8b03"
       }
     }
   ]
