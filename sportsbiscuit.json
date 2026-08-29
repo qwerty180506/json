@@ -1,8 +1,8 @@
 {
   "total_channels": 36,
-  "successful_channels": 17,
-  "failed_channels": 19,
-  "timestamp": "2026-08-29 12:59:23",
+  "successful_channels": 14,
+  "failed_channels": 22,
+  "timestamp": "2026-08-29 13:16:52",
   "successful_results": [
     {
       "channel_id": "1115",
@@ -13,27 +13,11 @@
       "playlist_data": "API failed: invalid response"
     },
     {
-      "channel_id": "3276",
-      "channel_name": "Star Movies Select",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=3276",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
       "channel_id": "1123",
       "channel_name": "Star Sports Select 1",
       "status": "success",
       "http_code": 200,
       "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1123",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "1142",
-      "channel_name": "Star Sports 1",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1142",
       "playlist_data": "API failed: invalid response"
     },
     {
@@ -131,14 +115,6 @@
       "http_code": 200,
       "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=3274",
       "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "2852",
-      "channel_name": "Star Sports 2 Telugu",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=2852",
-      "playlist_data": "API failed: invalid response"
     }
   ],
   "failed_results": [
@@ -147,9 +123,9 @@
       "channel_name": "History TV18 HD",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788006184~exp=1788009784~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=ef41ddb481d544bd310e087909701ed3d88ef9f1479e292fa0c42de5f56c2acd"
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=146"
       }
     },
     {
@@ -157,9 +133,9 @@
       "channel_name": "Travelxp HD",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788005290~exp=1788008890~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=8b523d9adbde019f1614f3c97a6459e1d3c6c17383a0a0f3f21f988e92c20cdb"
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=164"
       }
     },
     {
@@ -169,7 +145,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1788005402~exp=1788009002~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=72c827de34cb6415c819b308e95f506b48f581cce352a90b378c9ab6ccc8b1e2"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1788008936~exp=1788012536~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=2de650d27e8eb0f77139fcb1efa2e676ec8d8d399400aef43340b1f12eafda67"
       }
     },
     {
@@ -179,7 +155,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/index.mpd?__hdnea__=st=1788005322~exp=1788008922~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=03adf337be1d196ff39bb2dfa274b81d41555d191080082d8251c41c5c48bbea"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/index.mpd?__hdnea__=st=1788008948~exp=1788012548~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=c392776fbaf3b3bed2975679ade0bc7750709fe3bc9729d47fe99811719dbe11"
       }
     },
     {
@@ -197,9 +173,9 @@
       "channel_name": "Travelxp HD Hindi",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd?__hdnea__=st=1788005350~exp=1788008950~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=0035119fae1dd130ef9fbe147a1b7b59b9c01d158852346e81320300af3719fe"
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=562"
       }
     },
     {
@@ -217,9 +193,9 @@
       "channel_name": "Nat Geo Wild HD",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788005532~exp=1788009132~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=3ebf2899c5c3820cf20e0a4ac5e5dca952561f9345659768426ca4653039d1ab"
+        "http_code": 0,
+        "error": "Connection timed out after 10000 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1332"
       }
     },
     {
@@ -229,7 +205,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788005087~exp=1788008687~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=46bbb3523a959029c95830c51006a65a205ba192e69063464a88d9ea23a0a610"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788008696~exp=1788012296~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=7bc0c8f14502ae1e80e06868ddab4397d4ea8594f1fc07c2019b8147b15933f4"
       }
     },
     {
@@ -237,9 +213,9 @@
       "channel_name": "And Xplor HD",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd?__hdnea__=st=1788006204~exp=1788009804~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=fab13bd63345886fd879ede8319ee1213ff82ded424ce7ddd53ba375f13c1a85"
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1668"
       }
     },
     {
@@ -250,6 +226,16 @@
         "http_code": 450,
         "error": "",
         "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788005991~exp=1788009591~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=3f6d47132af6b5b371c05b8a7e5d105ac4c13844b137acd37d1c5330172ddf44"
+      }
+    },
+    {
+      "channel_id": "3276",
+      "channel_name": "Star Movies Select",
+      "status": "failed",
+      "error_details": {
+        "http_code": 0,
+        "error": "Connection timed out after 10000 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=3276"
       }
     },
     {
@@ -267,9 +253,9 @@
       "channel_name": "Star Sports Select 2 HD",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/index.mpd?__hdnea__=st=1787994211~exp=1788015811~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=628e963083968a4e1239473b981ebeec6f702f2a4dff6a3a55ad65d0f66568bf"
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=461"
       }
     },
     {
@@ -290,6 +276,16 @@
         "http_code": 450,
         "error": "",
         "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/WDVLive/index.mpd?__hdnea__=st=1787994211~exp=1788015811~acl=/bpk-tv/Star_Sports_HD1_BTS/WDVLive/*~hmac=47add759d51e577d819131a3b2e4c723df7dc4c81a3cecbc2e98150d0f877274"
+      }
+    },
+    {
+      "channel_id": "1142",
+      "channel_name": "Star Sports 1",
+      "status": "failed",
+      "error_details": {
+        "http_code": 0,
+        "error": "Connection timed out after 10003 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1142"
       }
     },
     {
@@ -317,9 +313,9 @@
       "channel_name": "Star Sports 2 HD",
       "status": "failed",
       "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD2_BTS/WDVLive/index.mpd?__hdnea__=st=1787994261~exp=1788015861~acl=/bpk-tv/Star_Sports_HD2_BTS/WDVLive/*~hmac=4a004d53702814b70c987e3d52d6b00269fa5d4f17079f5df21990e4c831d656"
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1109"
       }
     },
     {
@@ -330,6 +326,16 @@
         "http_code": 450,
         "error": "",
         "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/index.mpd?__hdnea__=st=1787990754~exp=1788012354~acl=/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/*~hmac=9ba94a10196e172d6442a39656e37162f9eca7d441e9ec6d406f406b03ff8b03"
+      }
+    },
+    {
+      "channel_id": "2852",
+      "channel_name": "Star Sports 2 Telugu",
+      "status": "failed",
+      "error_details": {
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=2852"
       }
     }
   ]
