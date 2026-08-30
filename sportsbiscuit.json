@@ -1,8 +1,8 @@
 {
   "total_channels": 36,
-  "successful_channels": 36,
-  "failed_channels": 0,
-  "timestamp": "2026-08-30 05:55:20",
+  "successful_channels": 32,
+  "failed_channels": 4,
+  "timestamp": "2026-08-30 06:17:21",
   "successful_results": [
     {
       "channel_id": "146",
@@ -10,14 +10,6 @@
       "status": "success",
       "http_code": 200,
       "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=146",
-      "playlist_data": "{\"error\":\"Invalid token\"}"
-    },
-    {
-      "channel_id": "164",
-      "channel_name": "Travelxp HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=164",
       "playlist_data": "{\"error\":\"Invalid token\"}"
     },
     {
@@ -34,14 +26,6 @@
       "status": "success",
       "http_code": 200,
       "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=415",
-      "playlist_data": "{\"error\":\"Invalid token\"}"
-    },
-    {
-      "channel_id": "472",
-      "channel_name": "And TV HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=472",
       "playlist_data": "{\"error\":\"Invalid token\"}"
     },
     {
@@ -98,22 +82,6 @@
       "status": "success",
       "http_code": 200,
       "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=3096",
-      "playlist_data": "{\"error\":\"Invalid token\"}"
-    },
-    {
-      "channel_id": "3276",
-      "channel_name": "Star Movies Select",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=3276",
-      "playlist_data": "{\"error\":\"Invalid token\"}"
-    },
-    {
-      "channel_id": "460",
-      "channel_name": "Star Sports Select 1 HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=460",
       "playlist_data": "{\"error\":\"Invalid token\"}"
     },
     {
@@ -293,5 +261,46 @@
       "playlist_data": "{\"error\":\"Invalid token\"}"
     }
   ],
-  "failed_results": []
+  "failed_results": [
+    {
+      "channel_id": "164",
+      "channel_name": "Travelxp HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 0,
+        "error": "Connection timed out after 10000 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=164"
+      }
+    },
+    {
+      "channel_id": "472",
+      "channel_name": "And TV HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=472"
+      }
+    },
+    {
+      "channel_id": "3276",
+      "channel_name": "Star Movies Select",
+      "status": "failed",
+      "error_details": {
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=3276"
+      }
+    },
+    {
+      "channel_id": "460",
+      "channel_name": "Star Sports Select 1 HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=460"
+      }
+    }
+  ]
 }
