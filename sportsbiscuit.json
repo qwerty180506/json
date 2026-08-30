@@ -2,7 +2,7 @@
   "total_channels": 36,
   "successful_channels": 32,
   "failed_channels": 4,
-  "timestamp": "2026-08-30 06:17:21",
+  "timestamp": "2026-08-30 06:32:27",
   "successful_results": [
     {
       "channel_id": "146",
@@ -10,6 +10,14 @@
       "status": "success",
       "http_code": 200,
       "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=146",
+      "playlist_data": "{\"error\":\"Invalid token\"}"
+    },
+    {
+      "channel_id": "164",
+      "channel_name": "Travelxp HD",
+      "status": "success",
+      "http_code": 200,
+      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=164",
       "playlist_data": "{\"error\":\"Invalid token\"}"
     },
     {
@@ -29,19 +37,11 @@
       "playlist_data": "{\"error\":\"Invalid token\"}"
     },
     {
-      "channel_id": "562",
-      "channel_name": "Travelxp HD Hindi",
+      "channel_id": "472",
+      "channel_name": "And TV HD",
       "status": "success",
       "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=562",
-      "playlist_data": "{\"error\":\"Invalid token\"}"
-    },
-    {
-      "channel_id": "821",
-      "channel_name": "Sony BBC Earth HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=821",
+      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=472",
       "playlist_data": "{\"error\":\"Invalid token\"}"
     },
     {
@@ -85,6 +85,14 @@
       "playlist_data": "{\"error\":\"Invalid token\"}"
     },
     {
+      "channel_id": "3276",
+      "channel_name": "Star Movies Select",
+      "status": "success",
+      "http_code": 200,
+      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=3276",
+      "playlist_data": "{\"error\":\"Invalid token\"}"
+    },
+    {
       "channel_id": "1123",
       "channel_name": "Star Sports Select 1",
       "status": "success",
@@ -114,14 +122,6 @@
       "status": "success",
       "http_code": 200,
       "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1106",
-      "playlist_data": "{\"error\":\"Invalid token\"}"
-    },
-    {
-      "channel_id": "1142",
-      "channel_name": "Star Sports 1",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1142",
       "playlist_data": "{\"error\":\"Invalid token\"}"
     },
     {
@@ -263,33 +263,23 @@
   ],
   "failed_results": [
     {
-      "channel_id": "164",
-      "channel_name": "Travelxp HD",
+      "channel_id": "562",
+      "channel_name": "Travelxp HD Hindi",
       "status": "failed",
       "error_details": {
         "http_code": 0,
         "error": "Connection timed out after 10000 milliseconds",
-        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=164"
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=562"
       }
     },
     {
-      "channel_id": "472",
-      "channel_name": "And TV HD",
+      "channel_id": "821",
+      "channel_name": "Sony BBC Earth HD",
       "status": "failed",
       "error_details": {
         "http_code": 0,
-        "error": "Connection timed out after 10001 milliseconds",
-        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=472"
-      }
-    },
-    {
-      "channel_id": "3276",
-      "channel_name": "Star Movies Select",
-      "status": "failed",
-      "error_details": {
-        "http_code": 0,
-        "error": "Connection timed out after 10001 milliseconds",
-        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=3276"
+        "error": "Connection timed out after 10005 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=821"
       }
     },
     {
@@ -298,8 +288,18 @@
       "status": "failed",
       "error_details": {
         "http_code": 0,
-        "error": "Connection timed out after 10001 milliseconds",
+        "error": "Connection timed out after 10000 milliseconds",
         "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=460"
+      }
+    },
+    {
+      "channel_id": "1142",
+      "channel_name": "Star Sports 1",
+      "status": "failed",
+      "error_details": {
+        "http_code": 0,
+        "error": "Connection timed out after 10001 milliseconds",
+        "final_url": "https://game.denver69.fun/Jtv/j2Jc4z/Jtv.mpd?id=1142"
       }
     }
   ]
