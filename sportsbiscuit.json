@@ -1,73 +1,9 @@
 {
   "total_channels": 36,
-  "successful_channels": 12,
-  "failed_channels": 24,
-  "timestamp": "2026-09-03 20:01:17",
+  "successful_channels": 2,
+  "failed_channels": 34,
+  "timestamp": "2026-09-03 20:20:52",
   "successful_results": [
-    {
-      "channel_id": "146",
-      "channel_name": "History TV18 HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=146",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "164",
-      "channel_name": "Travelxp HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=164",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "167",
-      "channel_name": "Zee TV HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=167",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "415",
-      "channel_name": "Zee Anmol Cinema",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=415",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "472",
-      "channel_name": "And TV HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=472",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "562",
-      "channel_name": "Travelxp HD Hindi",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=562",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "1115",
-      "channel_name": "Star Movies",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=1115",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "1332",
-      "channel_name": "Nat Geo Wild HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=1332",
-      "playlist_data": "API failed: invalid response"
-    },
     {
       "channel_id": "1335",
       "channel_name": "National Geographic HD",
@@ -83,25 +19,69 @@
       "http_code": 200,
       "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=1668",
       "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "3096",
-      "channel_name": "Star Gold 2 HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=3096",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "3276",
-      "channel_name": "Star Movies Select",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=3276",
-      "playlist_data": "API failed: invalid response"
     }
   ],
   "failed_results": [
+    {
+      "channel_id": "146",
+      "channel_name": "History TV18 HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788466618~exp=1788470218~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=8bc8f72f1f8e359c8162dcde3841c5d2e9a6809b83e87c591faf501e7499ca7d"
+      }
+    },
+    {
+      "channel_id": "164",
+      "channel_name": "Travelxp HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788466623~exp=1788470223~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=5c1d31568b7c4d5126f4c4a27f4e633b9bafcf5725bb65991cc19161b8087c9f"
+      }
+    },
+    {
+      "channel_id": "167",
+      "channel_name": "Zee TV HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1788466619~exp=1788470219~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=4baa3ee2a07824913f569d7fd77c242d53cc2970f88d99c1c33e6e09e5162b18"
+      }
+    },
+    {
+      "channel_id": "415",
+      "channel_name": "Zee Anmol Cinema",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/index.mpd?__hdnea__=st=1788466621~exp=1788470221~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=c6af963a6def72335863b7c3dd08cdfce6fcc0d72c8404d30e20230b850e87d5"
+      }
+    },
+    {
+      "channel_id": "472",
+      "channel_name": "And TV HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1788466694~exp=1788470294~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=2b74d82e5458691ec235e49780cdb31fa62476943c5a5cd3944bc2cd6d7cef3b"
+      }
+    },
+    {
+      "channel_id": "562",
+      "channel_name": "Travelxp HD Hindi",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd?__hdnea__=st=1788466631~exp=1788470231~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=43f5e8e4b753117d76bfd71e6903fc2165151af1cb0ae2e7dfdccd08d1a31592"
+      }
+    },
     {
       "channel_id": "821",
       "channel_name": "Sony BBC Earth HD",
@@ -110,6 +90,46 @@
         "http_code": 450,
         "error": "",
         "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd?__hdnea__=st=1788465026~exp=1788468626~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=573970a331de528fa5bc5ae527109891af7a7d02d425dd5bc7999beccb589520"
+      }
+    },
+    {
+      "channel_id": "1115",
+      "channel_name": "Star Movies",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_BTS/WDVLive/index.mpd?__hdnea__=st=1788466820~exp=1788488420~acl=/bpk-tv/Star_Movies_BTS/WDVLive/*~hmac=6019725acec14b5f4df0939ddb9c2c29908aa3ac3c981b51debafe257410e98e"
+      }
+    },
+    {
+      "channel_id": "1332",
+      "channel_name": "Nat Geo Wild HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788466626~exp=1788470226~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=aea31614841630007da52f094c53684eba232b9803192c9017866ea3d2fa5d04"
+      }
+    },
+    {
+      "channel_id": "3096",
+      "channel_name": "Star Gold 2 HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788466711~exp=1788470311~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=d25b175bc12d99cf3291aa8220b38e9842cc0f42f9ae2d6e804a200b59041c02"
+      }
+    },
+    {
+      "channel_id": "3276",
+      "channel_name": "Star Movies Select",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_Select_BTS/WDVLive/index.mpd?__hdnea__=st=1788466834~exp=1788488434~acl=/bpk-tv/Star_Movies_Select_BTS/WDVLive/*~hmac=90d327124fc472e716985ac52b21d9658c7dd9326fa8253d1836a382cccdc128"
       }
     },
     {
