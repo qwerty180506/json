@@ -1,26 +1,9 @@
 {
   "total_channels": 36,
-  "successful_channels": 2,
-  "failed_channels": 34,
-  "timestamp": "2026-09-03 20:20:52",
-  "successful_results": [
-    {
-      "channel_id": "1335",
-      "channel_name": "National Geographic HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=1335",
-      "playlist_data": "API failed: invalid response"
-    },
-    {
-      "channel_id": "1668",
-      "channel_name": "And Xplor HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=1668",
-      "playlist_data": "API failed: invalid response"
-    }
-  ],
+  "successful_channels": 0,
+  "failed_channels": 36,
+  "timestamp": "2026-09-03 20:30:35",
+  "successful_results": [],
   "failed_results": [
     {
       "channel_id": "146",
@@ -110,6 +93,26 @@
         "http_code": 450,
         "error": "",
         "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788466626~exp=1788470226~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=aea31614841630007da52f094c53684eba232b9803192c9017866ea3d2fa5d04"
+      }
+    },
+    {
+      "channel_id": "1335",
+      "channel_name": "National Geographic HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788466997~exp=1788470597~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=16af52af6e7b4756c94f1e4522e21bdbfa11663b1a9945cb11fc9d13fc36aa8c"
+      }
+    },
+    {
+      "channel_id": "1668",
+      "channel_name": "And Xplor HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd?__hdnea__=st=1788466999~exp=1788470599~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=19e13e4e2ba4604567cc5dcf5f384da17feb29309b6d33544ef2de75c6969567"
       }
     },
     {
