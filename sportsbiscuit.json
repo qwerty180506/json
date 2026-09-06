@@ -1,150 +1,369 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <script>
-      (function(){
-          setTimeout(function(){
-              window.location.reload();
-          }, 5000);
-      }())
-  </script>
-  <link rel="icon" href="data:,">
-  <title>One moment, please...</title>
-  <style>
-.spinner {
-    -webkit-animation: spin 1s ease-out;
-    animation: spin 1s ease-out;
-}
-@keyframes spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
+{
+  "total_channels": 36,
+  "successful_channels": 0,
+  "failed_channels": 36,
+  "timestamp": "2026-09-06 16:31:29",
+  "successful_results": [],
+  "failed_results": [
+    {
+      "channel_id": "146",
+      "channel_name": "History TV18 HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788710866~exp=1788714466~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=49eae54586cc458e6c5faf074bde4bc09e691b68a8a7e3d3315e9767cfc9181a"
+      }
+    },
+    {
+      "channel_id": "164",
+      "channel_name": "Travelxp HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788710866~exp=1788714466~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=65259b3006e3ae117093a4214f53a18f461721175917b5e2bff4457533a0ab72"
+      }
+    },
+    {
+      "channel_id": "167",
+      "channel_name": "Zee TV HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1788710867~exp=1788714467~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=585c11621d8a9b08c0471b9dc1db910e5767781bbd35d34228bd794c754a6ae8"
+      }
+    },
+    {
+      "channel_id": "415",
+      "channel_name": "Zee Anmol Cinema",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/index.mpd?__hdnea__=st=1788710873~exp=1788714473~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=aa8c2941daf7fd8d06fec6f18907189dfd02fad991861dca5999818667ba8e7e"
+      }
+    },
+    {
+      "channel_id": "472",
+      "channel_name": "And TV HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1788711203~exp=1788714803~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=3d8e010a605f1b2ea3e0c111ba402f4e0365b9e56d6d99e39d46fc6a0dfb63e9"
+      }
+    },
+    {
+      "channel_id": "562",
+      "channel_name": "Travelxp HD Hindi",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd?__hdnea__=st=1788710873~exp=1788714473~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=3beec36c5321b7862a5fa540dbabc3196ea0a71fdf76e07bdb0fb29acba0b0fa"
+      }
+    },
+    {
+      "channel_id": "821",
+      "channel_name": "Sony BBC Earth HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd?__hdnea__=st=1788710312~exp=1788713912~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=222a679c213e149afa2d2505efbe2758274e33a6c7b4bc576255aca6ed209b3f"
+      }
+    },
+    {
+      "channel_id": "1115",
+      "channel_name": "Star Movies",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_BTS/WDVLive/index.mpd?__hdnea__=st=1788698756~exp=1788720356~acl=/bpk-tv/Star_Movies_BTS/WDVLive/*~hmac=e045859c8dad81afe3ab4d8e39db5f18a00d6b704dec367d19397d5fe52905c0"
+      }
+    },
+    {
+      "channel_id": "1332",
+      "channel_name": "Nat Geo Wild HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788710792~exp=1788714392~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=cab07929b78c12408a807d22d42b4f4ce0ad1559a190c667a5dc5fbef0a59696"
+      }
+    },
+    {
+      "channel_id": "1335",
+      "channel_name": "National Geographic HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788711503~exp=1788715103~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=6dd04021a4aae858cc017cf5489b40b867f56fb5d496799028263df550824f8e"
+      }
+    },
+    {
+      "channel_id": "1668",
+      "channel_name": "And Xplor HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd?__hdnea__=st=1788711810~exp=1788715410~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=f64853f1d49eadc8c79fb0c9addc7c18648262e0bf1f9d84ff04b24723036041"
+      }
+    },
+    {
+      "channel_id": "3096",
+      "channel_name": "Star Gold 2 HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788711222~exp=1788714822~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=c85473c548c9e67029d425c2043990d081a8477f8d0c7627043b60d8d810f436"
+      }
+    },
+    {
+      "channel_id": "3276",
+      "channel_name": "Star Movies Select",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_Select_BTS/WDVLive/index.mpd?__hdnea__=st=1788698770~exp=1788720370~acl=/bpk-tv/Star_Movies_Select_BTS/WDVLive/*~hmac=e6adbe94337ed2114822b5383e3c21dcb20e74f5065c32d34a30d3668021a947"
+      }
+    },
+    {
+      "channel_id": "460",
+      "channel_name": "Star Sports Select 1 HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/index.mpd?__hdnea__=st=1788698274~exp=1788719874~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=fe64ff3ae92519b12c5f22c095007f90483f2bb7e8f5875ef2d7c28bbabdbea6"
+      }
+    },
+    {
+      "channel_id": "1123",
+      "channel_name": "Star Sports Select 1",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_1_BTS/WDVLive/index.mpd?__hdnea__=st=1788698330~exp=1788719930~acl=/bpk-tv/Star_Sports_Select_1_BTS/WDVLive/*~hmac=6b1c49ae05cf42a9c6fa3e1e171ffafcc96d6400bd6f4c7b3d86243580466490"
+      }
+    },
+    {
+      "channel_id": "461",
+      "channel_name": "Star Sports Select 2 HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/index.mpd?__hdnea__=st=1788698211~exp=1788719811~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=ed05d9cd8302e6dd8379c98dbb1549bab48a95a31cf7d78295b81daae46b5344"
+      }
+    },
+    {
+      "channel_id": "1114",
+      "channel_name": "Star Sports Select 2",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_2_BTS/WDVLive/index.mpd?__hdnea__=st=1788698214~exp=1788719814~acl=/bpk-tv/Star_Sports_Select_2_BTS/WDVLive/*~hmac=4f87ac09031e930bbbdcd26ef03c8c445ac02e030674afec3e5cd16a3ef7df7d"
+      }
+    },
+    {
+      "channel_id": "1106",
+      "channel_name": "Star Sports 1 HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/WDVLive/index.mpd?__hdnea__=st=1788698210~exp=1788719810~acl=/bpk-tv/Star_Sports_HD1_BTS/WDVLive/*~hmac=267d669402ffb1e9280526298a820210b7d6fe354baff5e934b5f2f364d24c38"
+      }
+    },
+    {
+      "channel_id": "1142",
+      "channel_name": "Star Sports 1",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_BTS/WDVLive/index.mpd?__hdnea__=st=1788703077~exp=1788724677~acl=/bpk-tv/Star_Sports_1_BTS/WDVLive/*~hmac=d66000a8fb22463da2ee4c67e1273ffde1711c61f97dd4811b3e2fa7683e28b7"
+      }
+    },
+    {
+      "channel_id": "1108",
+      "channel_name": "Star Sports 1 Hindi HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/index.mpd?__hdnea__=st=1788698113~exp=1788719713~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=d9abecdfba25609fc49c9d1fce69f8520ec455f18a723b3fc9d19315d391bbd7"
+      }
+    },
+    {
+      "channel_id": "362",
+      "channel_name": "Star Sports 1 Hindi",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/index.mpd?__hdnea__=st=1788698157~exp=1788719757~acl=/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/*~hmac=8f13c51920ad330511b1cafbda1fbf82e6975042c0903369a8ee9159a593127b"
+      }
+    },
+    {
+      "channel_id": "1109",
+      "channel_name": "Star Sports 2 HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD2_BTS/WDVLive/index.mpd?__hdnea__=st=1788698214~exp=1788719814~acl=/bpk-tv/Star_Sports_HD2_BTS/WDVLive/*~hmac=419c3f7f5494728b2f9d2e3b1c0c9164604d350978bb061821cf6b861037c897"
+      }
+    },
+    {
+      "channel_id": "1141",
+      "channel_name": "Star Sports 2",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_2_BTS/WDVLive/index.mpd?__hdnea__=st=1788698334~exp=1788719934~acl=/bpk-tv/Star_Sports_2_BTS/WDVLive/*~hmac=3edc4df5a51471a2f84952f0b9d7b505b230475ffde4885bf4003a605c9cb1d3"
+      }
+    },
+    {
+      "channel_id": "1984",
+      "channel_name": "Star Sports 2 Hindi HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/index.mpd?__hdnea__=st=1788698274~exp=1788719874~acl=/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/*~hmac=c0e383f638721fdc4959a7cff67667344a334a94e739363b9757e2fdf2f46f73"
+      }
+    },
+    {
+      "channel_id": "1985",
+      "channel_name": "Star Sports 2 Hindi",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSports2Hin_BTS/WDVLive/index.mpd?__hdnea__=st=1788698684~exp=1788720284~acl=/bpk-tv/StarSports2Hin_BTS/WDVLive/*~hmac=9a11e590cef9695bae4261082489996610055414465a983291a245483286d582"
+      }
+    },
+    {
+      "channel_id": "1389",
+      "channel_name": "Star Sports 3",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_3_BTS/WDVLive/index.mpd?__hdnea__=st=1788697630~exp=1788719230~acl=/bpk-tv/Star_Sports_3_BTS/WDVLive/*~hmac=ffc8338bbb0c1783f0391355a59a8006dea94c1b240feabd1b7b1ef7a5e813f6"
+      }
+    },
+    {
+      "channel_id": "3277",
+      "channel_name": "Star Sports 1 Tamil HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1788698334~exp=1788719934~acl=/bpk-tv/Star_Sports_1_Tamil_HD_BTS/WDVLive/*~hmac=e9ee5f100df930de810a2a90375da43dc19612cbb1650e118997e856058a754f"
+      }
+    },
+    {
+      "channel_id": "1124",
+      "channel_name": "Star Sports 1 Tamil",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/index.mpd?__hdnea__=st=1788698329~exp=1788719929~acl=/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/*~hmac=ae79700edc268ba92d03fff23f17f416ff889743ff793b9feed002ef16bcafba"
+      }
+    },
+    {
+      "channel_id": "3278",
+      "channel_name": "Star Sports 1 Telugu HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788698340~exp=1788719940~acl=/bpk-tv/Star_Sports_1_Telugu_HD_BTS/WDVLive/*~hmac=473eea951003942211ba902246a01cd008e91bbbaed605e852e5a2921e03a044"
+      }
+    },
+    {
+      "channel_id": "1651",
+      "channel_name": "Star Sports 1 Telugu",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_BTS/WDVLive/index.mpd?__hdnea__=st=1788697627~exp=1788719227~acl=/bpk-tv/Star_Sports_1_Telugu_BTS/WDVLive/*~hmac=0ff8d8eda31cf84d1dcfe2060ccd9ec8f99f260d3fbdbc0b2a9ec29935e33af3"
+      }
+    },
+    {
+      "channel_id": "1650",
+      "channel_name": "Star Sports 1 Kannada",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/WDVLive/index.mpd?__hdnea__=st=1788697674~exp=1788719274~acl=/bpk-tv/Star_Sports_1_Kannada_BTS/WDVLive/*~hmac=59c7a3f571f1880d071cac64bdfcd8d9111aaa3e3f40d074ad4bc39b074c997c"
+      }
+    },
+    {
+      "channel_id": "1122",
+      "channel_name": "Star Sports 2 Kannada",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_2_Kannada_BTS/WDVLive/index.mpd?__hdnea__=st=1788698330~exp=1788719930~acl=/bpk-tv/Star_Sports_2_Kannada_BTS/WDVLive/*~hmac=7b72282a86220bde2b9e5768977257c0607e538c884d85a88c5dbb3c5859a649"
+      }
+    },
+    {
+      "channel_id": "3273",
+      "channel_name": "Star Sports 2 Tamil HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports2_Tamil_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788697674~exp=1788719274~acl=/bpk-tv/Star_Sports2_Tamil_HD_BTS/WDVLive/*~hmac=22d0d940f65ecf4219fb8ef2f2296aa969b7176830681fc931dae5d648f87aaa"
+      }
+    },
+    {
+      "channel_id": "2853",
+      "channel_name": "Star Sports 2 Tamil",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSports2Tamil_BTS/WDVLive/index.mpd?__hdnea__=st=1788703120~exp=1788724720~acl=/bpk-tv/StarSports2Tamil_BTS/WDVLive/*~hmac=7a2c7d22c78d12f4994c8678e0671005e7314d8bc33505250255e4104849f2cd"
+      }
+    },
+    {
+      "channel_id": "3274",
+      "channel_name": "Star Sports 2 Telugu HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports2_Telugu_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788697677~exp=1788719277~acl=/bpk-tv/Star_Sports2_Telugu_HD_BTS/WDVLive/*~hmac=143f5b96179b78c375e94d1cae4276e675a457751fe8abaf5284ff6af72bb3af"
+      }
+    },
+    {
+      "channel_id": "2852",
+      "channel_name": "Star Sports 2 Telugu",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSports2Telugu_BTS/WDVLive/index.mpd?__hdnea__=st=1788701189~exp=1788722789~acl=/bpk-tv/StarSports2Telugu_BTS/WDVLive/*~hmac=4cf0ce92bb36a37c3ad828b8603ae90b4b79ddd9d4f9ec766e1bd24b35f5cd04"
+      }
     }
-    100% {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
+  ]
 }
-#outer-container {
-    text-align: center;
-}
-#container {
-        display: inline-block;
-        height: 100px;
-    }
-#text {
-    float: left;
-    height: 100px;
-    line-height: 100px;
-    font-size: 3rem;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    padding: 0 .4em 0 .2em;
-    letter-spacing: 0.06em;
-    color: rgba(38, 122, 72, 0.86);
-}
-@media (min-height: 180px) {
-    #outer-container {
-        margin-top: 0;
-    }
-}
-@media (min-height: 360px) {
-    #outer-container {
-        margin-top: 5%;
-    }
-}
-@media (min-height: 540px) {
-    #outer-container {
-        margin-top: 10%;
-    }
-}
-@media (min-height: 720px) {
-    #outer-container {
-        margin-top: 20%;
-    }
-}
-@media (min-width: 1450px) {
-    .throbber {
-        width: 90px;
-        height: 90px;
-        float: left;
-        padding: 5px 0 5px 5px;
-        opacity: 0.86;
-    }
-    #container {
-        display: inline-block;
-        border: 3px solid rgb(38, 122, 72, 0.86);
-        border-radius: 51px;
-        height: 100px;
-    }
-}
-
-  </style>
-</head>
-<body>
-  <div id="outer-container">
-    <div id="container">
-<div class="throbber">
-    <svg class="spinner" width="90px" height="90px" viewBox="0 0 47 47"
-         version="1.1"
-         xmlns="http://www.w3.org/2000/svg"
-         xmlns:xlink="http://www.w3.org/1999/xlink">
-        <title>Loader</title>
-        <defs>
-            <polygon id="path-1"
-                     points="0 0.375484146 0 15.7255695 15.7013244 15.7255695 15.7013244 0.375484146 0 0.375484146"></polygon>
-        </defs>
-        <g id="Page-1" stroke="none" stroke-width="1" fill="none"
-           fill-rule="evenodd">
-            <g id="Logo" transform="translate(-5.000000, -2.000000)">
-                <g id="Group-2" transform="translate(5.000000, 2.000000)">
-                    <path d="M22.6150244,4.52988293 C23.1538049,3.06256585 23.6031707,1.59582195 24.231939,0.158882927 C25.1902805,2.22459024 25.8190488,4.43989512 26.7768171,6.47579756 C29.1417195,7.40376098 31.7164024,7.7929439 34.1116829,8.69110244 C28.9623171,11.2663585 23.7229634,13.7510537 18.4836098,16.176139 C19.7709512,12.2545049 21.2382683,8.4217122 22.6150244,4.52988293 L22.6150244,4.52988293 Z"
-                          id="Fill-1" fill="#467C45"></path>
-                    <path d="M13.7718598,8.94461585 C16.1424939,7.68077439 18.4500793,6.28968902 20.8207134,5.02527439 C18.9240915,10.8412378 16.7747012,16.5614817 14.8465549,22.3774451 C12.7292622,18.3950549 10.895689,14.2544695 8.9044939,10.2090305 C8.27228659,8.85004268 7.5455061,7.55353049 7.00844512,6.16359146 C9.31545732,6.95342073 11.4648476,8.24935976 13.7718598,8.94461585"
-                          id="Fill-3" fill="#467C45"></path>
-                    <path d="M24.2134256,15.0745049 C29.4602305,12.4969561 34.7379866,9.91940732 40.0157427,7.4031878 C39.1565598,9.61276098 38.1747183,11.7300537 37.2232549,13.9086756 C38.4504134,16.2099561 39.9544134,18.388578 41.0898646,20.7511878 C35.4435598,18.9405415 29.8287793,17.0381878 24.2134256,15.0745049"
-                          id="Fill-5" fill="#467C45"></path>
-                    <g id="Group-9"
-                       transform="translate(0.000000, 11.919659)">
-                        <mask id="mask-2" fill="white">
-                            <use xlink:href="#path-1"></use>
-                        </mask>
-                        <g id="Clip-8"></g>
-                        <path d="M8.34869024,0.375484146 C9.93064146,3.33419146 11.2781659,6.43963049 12.7426171,9.45622805 C13.7387878,11.5362646 14.793422,13.5876427 15.7013244,15.7255695 C10.4579585,13.9091915 5.21401951,12.03435 -0.000114634146,10.0718134 C2.05069024,9.1341061 4.21842195,8.4898622 6.29845854,7.61119146 C6.97193415,5.17980122 7.67521463,2.77706951 8.34869024,0.375484146"
-                              id="Fill-7" fill="#467C45"
-                              mask="url(#mask-2)"></path>
-                    </g>
-                    <path d="M29.1793195,18.0496049 C33.5600634,19.4670561 37.9081366,21.0776659 42.2888805,22.5593122 C43.6742341,23.0745927 45.1558805,23.4609098 46.5085634,24.1372512 C44.2216122,25.039422 41.9025634,25.9100683 39.6477098,26.8110927 C38.8103073,29.4195927 38.2302585,32.1261049 37.3607585,34.7346049 C35.5890878,31.4497634 34.0432463,28.0353854 32.3684415,24.6852024 C31.3052098,22.4945439 30.1456854,20.3044585 29.1793195,18.0496049"
-                          id="Fill-10" fill="#467C45"></path>
-                    <path d="M28.9972232,29.3489207 C29.5789915,27.69475 30.0684793,26.0113476 30.7419549,24.3887012 C31.538089,25.7660305 32.1811866,27.2356402 32.9154183,28.6444939 C34.7220524,32.4709817 36.68115,36.205189 38.4568329,40.0316768 C36.2827963,39.1449817 34.1402841,38.1654329 31.9364427,37.2460671 C29.6403207,38.4709329 27.4662841,39.9405427 25.1094061,41.1035061 C26.3033207,37.1549329 27.7419793,33.2671159 28.9972232,29.3489207"
-                          id="Fill-12" fill="#467C45"></path>
-                    <path d="M4.97133902,25.64555 C9.93385122,27.1873793 14.7737049,29.036428 19.6748878,30.6705378 C20.4148512,30.9170012 21.1542415,31.1944159 21.8328756,31.5337329 C16.5304732,33.9685622 11.3214976,36.6498549 5.95776585,38.99355 C6.82096098,36.8355622 7.89966829,34.7698549 8.7319122,32.581489 C7.68358293,30.1764646 6.11194878,28.01905 4.97133902,25.64555"
-                          id="Fill-14" fill="#467C45"></path>
-                    <path d="M15.4549183,35.8770488 C19.4671134,33.9317073 23.4483573,31.8952317 27.4915037,30.0433171 C26.4110768,33.6542927 25.0222841,37.203939 23.8186256,40.8143415 C23.1090402,42.7275854 22.5530646,44.7033049 21.7511988,46.5855976 C20.7630524,44.4866463 20.0534671,42.2650366 19.1277963,40.1351341 C16.6276256,39.2094634 14.0042232,38.684439 11.4736744,37.9748537 C12.6773329,37.0801341 14.1584061,36.586061 15.4549183,35.8770488"
-                          id="Fill-16" fill="#467C45"></path>
-                </g>
-            </g>
-        </g>
-    </svg>
-</div>
-      <div id="text">
-        Please wait while your request is being verified...
-      </div>
-    </div>
-  </div>
-  <div id="mweu2yzviu0f"></div>
-  <script>
-var a0k=a0w;(function(Z,b){var a0R={Z:0x157,b:0x14f,d:0x17d,w:0x15f,B:0x16f},y=a0w,d=Z();while(!![]){try{var w=-parseInt(y(a0R.Z))/0x1*(parseInt(y(a0R.b))/0x2)+parseInt(y(a0R.d))/0x3*(-parseInt(y(a0R.w))/0x4)+parseInt(y(0x171))/0x5+-parseInt(y(0x176))/0x6+parseInt(y(0x164))/0x7*(parseInt(y(a0R.B))/0x8)+parseInt(y(0x168))/0x9+parseInt(y(0x16e))/0xa;if(w===b)break;else d['push'](d['shift']());}catch(B){d['push'](d['shift']());}}}(a0d,0x89610));function a0w(Z,b){var d=a0d();return a0w=function(w,B){w=w-0x143;var i=d[w];return i;},a0w(Z,b);}var a0B=window[a0k(0x17c)],a0i={'webdriverCheck':function(){var F=a0k;return F(0x174)in window||!!a0B[F(0x174)];},'userAgentCheck':function(){var x=a0k;return/headless|bytespider/i['test'](a0B[x(0x159)]);},'appVersionCheck':function(){var a0E={Z:0x151},N=a0k;return/headless/i[N(0x14a)](a0B[N(a0E.Z)]);},'pluginArraySpoofing':function(){var a0P={Z:0x14b,b:0x17a,d:0x154},q=a0k;let Z=PluginArray[q(0x154)]===a0B['plugins'][q(a0P.Z)];if(a0B[q(a0P.b)][q(0x161)]>0x0)Z&=Plugin[q(a0P.d)]===a0B['plugins'][0x0]['__proto__'];return!Z;},'mimeTypeArraySpoofing':function(){var a0J={Z:0x14c,b:0x14b},W=a0k;let Z=MimeTypeArray['prototype']===a0B['mimeTypes'][W(0x14b)];if(a0B[W(a0J.Z)]['length']>0x0)Z&=MimeType['prototype']===a0B[W(a0J.Z)][0x0][W(a0J.b)];return!Z;},'noLanguage':function(){var a0e={Z:0x152},Y=a0k;return!a0B['language']||a0B[Y(a0e.Z)]['length']===0x0;},'zeroOuterDimensions':function(){var M=a0k;return window[M(0x181)+'t']===0x0&&window[M(0x16a)]===0x0;}},a0T=function(d,w){var a0m={Z:0x167,b:0x15d,d:0x147,w:0x15e,B:0x153},a0l={Z:0x166,b:0x175,d:0x177},H=a0k,B=(function(){var T=!![];return function(j,p){var a0r={Z:0x16d},f=T?function(){var z=a0w;if(p){var G=p[z(a0r.Z)](j,arguments);return p=null,G;}}:function(){};return T=![],f;};}()),i=B(this,function(){var t=a0w;return i[t(0x175)]()['search'](t(a0l.Z)+'+$')[t(a0l.b)]()[t(0x15c)+'r'](i)[t(a0l.d)](t(a0l.Z)+'+$');});i(),window[H(0x15d)+'stener']?window[H(a0m.Z)][H(a0m.b)+H(a0m.d)](H(0x172)+H(a0m.w),d,w):window[H(0x167)][H(a0m.B)+'t'](H(0x149)+H(0x17e),d);};a0T(function(){var a0a={Z:0x182,b:0x158,d:0x167,w:0x167,B:0x167,i:0x16c,T:0x14e,j:0x14e,p:0x167,f:0x15b,G:0x170,Q:0x169,V:0x17b,S:0x17b,I:0x173,C:0x144,L:0x162,u:0x156,g:0x150,O:0x165,U:0x150,k:0x16b,R:0x15a,v:0x160,n:0x163,E:0x165,P:0x179,J:0x146,e:0x14d,X:0x14d,r:0x143};setTimeout(function(){var h=a0w,Z=window[h(0x167)][h(a0a.Z)+'ById']('mweu2yzviu0f'),b=+((+!+[]+!![]+!![])+(+!+[]+!![]+!![]+!![]+[])+(+!+[]+!![]+!![])+(+!+[]+!![]+!![]+[])+(+!+[]+!![]+!![]+!![]+!![]+!![]+!![]+!![])+(+!+[]+!![]+[])+(+!+[]+!![]+!![]+!![]+!![]+!![]+!![])),d=window[h(0x167)][h(a0a.b)+'ent'](h(0x17f)),w=window[h(a0a.d)]['createElem'+h(0x16c)]('input'),B=window[h(a0a.w)]['createElem'+'ent'](h(0x14e)),i=window[h(a0a.B)][h(a0a.b)+h(a0a.i)](h(a0a.T)),T=window['document']['createElem'+'ent'](h(a0a.j)),j=window[h(a0a.p)][h(0x158)+'ent'](h(0x14e)),p=+((+!+[]+!![]+!![]+!![]+!![]+!![])+(+!+[]+!![]+!![]+!![]+!![]+[])+(+!+[])+(+!+[]+!![]+[])+(+!+[]+!![]+!![]+!![]+!![]+!![]+!![]+!![]+!![])+(+!+[]+!![]+!![]+!![]+!![]+!![]+!![]+!![]+!![]+[])+(+!+[]+!![]+!![]+!![]+!![])),f='wsidchk',G='pdata',Q='https%3A%2F%2Fallinonereborn2.online%2Fjtv-fetch%2Fjstarcookie%2Fcookie.json',V='/z0f76a1d14fd21a8fb5fd0d03e0fdc3d3cedae52f',S='failedChecks',I=Object[h(a0a.f)](a0i)[h(a0a.G)](([g,O])=>{try{return O()?g:null;}catch(U){return null;}})[h(0x180)](g=>g!==null),C=I['length']>0x0;if(C){var L=new URLSearchParams();L['append']('id','a6105c0a61'+h(0x155)+h(a0a.Q)+'9e'),L[h(a0a.V)]('ts','1788711496'),L['append'](f,b+p),L[h(a0a.S)](G,Q),L[h(0x17b)]('cttl','0'),I[h(0x145)](g=>L['append'](S,g));var u=new XMLHttpRequest();u[h(a0a.I)](h(0x162),V+'?'+L[h(0x175)]()),u[h(a0a.C)](null);}else d['id']='mweu2yzviu0f',d[h(0x148)]=h(0x178)+'ne;',d['method']=h(a0a.L),d[h(a0a.u)]=V,w['id']='qo6dhvkrm9l0',w[h(0x179)]=f,w[h(a0a.g)]=b+p,w[h(0x163)]=h(a0a.O),i[h(0x179)]='id',i[h(a0a.U)]=h(a0a.k)+h(a0a.R)+h(a0a.v)+'c7',i[h(a0a.n)]=h(a0a.E),T[h(0x179)]='ts',T[h(a0a.U)]='1788711496',T[h(0x163)]=h(0x165),B['id']='p7sxgjvt4ojn',B[h(a0a.P)]=G,B['value']=Q,B[h(0x163)]=h(a0a.E),j[h(a0a.P)]=h(a0a.J),j['value']='0',j[h(a0a.n)]=h(0x165),d[h(a0a.e)+'d'](w),d[h(0x14d)+'d'](B),d[h(0x14d)+'d'](i),d[h(a0a.X)+'d'](T),d['appendChil'+'d'](j),Z['appendChil'+'d'](d),d[h(a0a.r)]();},0x3e8);},![]);function a0d(){var D=['outerHeigh','getElement','submit','send','forEach','cttl','stener','style','onreadysta','test','__proto__','mimeTypes','appendChil','input','4ZxTJVa','value','appVersion','languages','attachEven','prototype','1b41b08f12','action','428567YeXEan','createElem','userAgent','60b54a2be4','entries','constructo','addEventLi','Loaded','132nrrkwl','d49030b349','length','GET','type','7tRiiYS','hidden','(((.+)+)+)','document','27693dXvVFz','0950635027','outerWidth','7fa3b767c4','ent','apply','13953240WObgXo','7494712DhojRb','map','1451070NmFADF','DOMContent','open','webdriver','toString','5324184qeEHgS','search','display:no','name','plugins','append','navigator','28932XcDYUj','techange','form','filter'];a0d=function(){return D;};return a0d();}
-  </script>
-</body>
-</html>
