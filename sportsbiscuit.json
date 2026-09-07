@@ -1,9 +1,58 @@
 {
   "total_channels": 36,
-  "successful_channels": 0,
-  "failed_channels": 36,
-  "timestamp": "2026-09-07 06:30:55",
-  "successful_results": [],
+  "successful_channels": 6,
+  "failed_channels": 30,
+  "timestamp": "2026-09-07 06:42:05",
+  "successful_results": [
+    {
+      "channel_id": "1123",
+      "channel_name": "Star Sports Select 1",
+      "status": "success",
+      "http_code": 200,
+      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=1123",
+      "playlist_data": "API failed: invalid response"
+    },
+    {
+      "channel_id": "1141",
+      "channel_name": "Star Sports 2",
+      "status": "success",
+      "http_code": 200,
+      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=1141",
+      "playlist_data": "API failed: invalid response"
+    },
+    {
+      "channel_id": "3277",
+      "channel_name": "Star Sports 1 Tamil HD",
+      "status": "success",
+      "http_code": 200,
+      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=3277",
+      "playlist_data": "API failed: invalid response"
+    },
+    {
+      "channel_id": "1124",
+      "channel_name": "Star Sports 1 Tamil",
+      "status": "success",
+      "http_code": 200,
+      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=1124",
+      "playlist_data": "API failed: invalid response"
+    },
+    {
+      "channel_id": "3278",
+      "channel_name": "Star Sports 1 Telugu HD",
+      "status": "success",
+      "http_code": 200,
+      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=3278",
+      "playlist_data": "API failed: invalid response"
+    },
+    {
+      "channel_id": "1122",
+      "channel_name": "Star Sports 2 Kannada",
+      "status": "success",
+      "http_code": 200,
+      "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=1122",
+      "playlist_data": "API failed: invalid response"
+    }
+  ],
   "failed_results": [
     {
       "channel_id": "146",
@@ -72,7 +121,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd?__hdnea__=st=1788759407~exp=1788763007~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=72c561ba4f954e9543ac492d05ed8722f8bfaa8d508a13bc327906a137409000"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd?__hdnea__=st=1788762904~exp=1788766504~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=649431ecf44afa2b1f0519b8fe463693bf0f3348a9ecf61df6f9ffeee56beab0"
       }
     },
     {
@@ -142,17 +191,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/index.mpd?__hdnea__=st=1788741527~exp=1788763127~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=0c22e9b13e958dbbf81289012b993642396ecc0d0d61331d3f0f67f79fabbfbf"
-      }
-    },
-    {
-      "channel_id": "1123",
-      "channel_name": "Star Sports Select 1",
-      "status": "failed",
-      "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_1_BTS/WDVLive/index.mpd?__hdnea__=st=1788741576~exp=1788763176~acl=/bpk-tv/Star_Sports_Select_1_BTS/WDVLive/*~hmac=3221e0e65f6777e924b5148c8685340d9d7c28a0321e1cceb1d7cf070f082c16"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/index.mpd?__hdnea__=st=1788763141~exp=1788784741~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=f02959ca9c07efa04a8c764fef29e4e020fcded33089e3f56009dd2eb3fa4ab2"
       }
     },
     {
@@ -162,7 +201,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/index.mpd?__hdnea__=st=1788741478~exp=1788763078~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=0ce693c1cf632e6479a3f331713339779f806457f6616a84ae75196710bcfb0d"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/index.mpd?__hdnea__=st=1788763118~exp=1788784718~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=011b37549255d2ffd31556a5cb9cc45b4b35b48c393ec32adacd34e67ff57582"
       }
     },
     {
@@ -172,7 +211,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_2_BTS/WDVLive/index.mpd?__hdnea__=st=1788741485~exp=1788763085~acl=/bpk-tv/Star_Sports_Select_2_BTS/WDVLive/*~hmac=2a3bc99f96e5a5a12f651e4715a02644ee068251816d76922351d8792b7b0471"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_2_BTS/WDVLive/index.mpd?__hdnea__=st=1788763127~exp=1788784727~acl=/bpk-tv/Star_Sports_Select_2_BTS/WDVLive/*~hmac=17a48489b5fedeaff6d538863525df86dd6b4d23ac5a7b33a353a00baf424d09"
       }
     },
     {
@@ -182,7 +221,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/WDVLive/index.mpd?__hdnea__=st=1788741478~exp=1788763078~acl=/bpk-tv/Star_Sports_HD1_BTS/WDVLive/*~hmac=9e9b0072e11d59b0965319a66d79331609ce3a73433456fe20eed9e67f0710f9"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/WDVLive/index.mpd?__hdnea__=st=1788763122~exp=1788784722~acl=/bpk-tv/Star_Sports_HD1_BTS/WDVLive/*~hmac=96be44465e9f935f861f56380ff5c32c1427e1f2224b773e7055c196cb506b63"
       }
     },
     {
@@ -202,7 +241,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/index.mpd?__hdnea__=st=1788741344~exp=1788762944~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=9c31962d0ef385bd85e6a9eea2521f029d885fdfe6df85f6be3f57dde444b1a9"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/index.mpd?__hdnea__=st=1788762969~exp=1788784569~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=7d1cf0de467ceedfec9d2d46a24b3c9d56d2eee68cbf3ff6091d5ef1847fe136"
       }
     },
     {
@@ -212,7 +251,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/index.mpd?__hdnea__=st=1788741424~exp=1788763024~acl=/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/*~hmac=7deda0af462d5b3fcdac34748a8f08fb1160dd5d4cad46c0df8afade440f832a"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/index.mpd?__hdnea__=st=1788763067~exp=1788784667~acl=/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/*~hmac=46b6f04e5ea34f6f88fc246bbaee369b595a4ba5af068b2b08cec858f5382006"
       }
     },
     {
@@ -222,17 +261,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD2_BTS/WDVLive/index.mpd?__hdnea__=st=1788741478~exp=1788763078~acl=/bpk-tv/Star_Sports_HD2_BTS/WDVLive/*~hmac=ea055898b7848cbe6d410985fa7d26337fa4c77426f0745e9293474d98e0a042"
-      }
-    },
-    {
-      "channel_id": "1141",
-      "channel_name": "Star Sports 2",
-      "status": "failed",
-      "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_2_BTS/WDVLive/index.mpd?__hdnea__=st=1788741579~exp=1788763179~acl=/bpk-tv/Star_Sports_2_BTS/WDVLive/*~hmac=fbfa9a19fc29513c74efe3a73411444fc6c7fb3e9de4c43c51825308dd34592d"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD2_BTS/WDVLive/index.mpd?__hdnea__=st=1788763118~exp=1788784718~acl=/bpk-tv/Star_Sports_HD2_BTS/WDVLive/*~hmac=ed1971d1d50e4a4ebfc53cfb9a404e7fd06221e84a422b0be91395d9c9071213"
       }
     },
     {
@@ -242,7 +271,7 @@
       "error_details": {
         "http_code": 450,
         "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/index.mpd?__hdnea__=st=1788741509~exp=1788763109~acl=/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/*~hmac=366eafee356161bf9f4f42c1618ea2399f6b0b23680e00bd12aea7de9c0abdd7"
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/index.mpd?__hdnea__=st=1788763121~exp=1788784721~acl=/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/*~hmac=8b059b07049dbdc667b43ce9774f9cba5d745b1f15858b91d0b5784719da5c72"
       }
     },
     {
@@ -266,36 +295,6 @@
       }
     },
     {
-      "channel_id": "3277",
-      "channel_name": "Star Sports 1 Tamil HD",
-      "status": "failed",
-      "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1788741579~exp=1788763179~acl=/bpk-tv/Star_Sports_1_Tamil_HD_BTS/WDVLive/*~hmac=9b70602033c83d5f9a6d06102561dc7b83a0baf0d89ed5747d9795b42eff3701"
-      }
-    },
-    {
-      "channel_id": "1124",
-      "channel_name": "Star Sports 1 Tamil",
-      "status": "failed",
-      "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/index.mpd?__hdnea__=st=1788741576~exp=1788763176~acl=/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/*~hmac=276a9985ecf99c3badf3ef7f3d5a240b7569b805fb19f5e8f9150c5e8e1f39c4"
-      }
-    },
-    {
-      "channel_id": "3278",
-      "channel_name": "Star Sports 1 Telugu HD",
-      "status": "failed",
-      "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1788741579~exp=1788763179~acl=/bpk-tv/Star_Sports_1_Telugu_HD_BTS/WDVLive/*~hmac=91cf06c89f0aaf7bf28e2a45b04d7c4a5b0133915b7b5db266ae864531c46ac6"
-      }
-    },
-    {
       "channel_id": "1651",
       "channel_name": "Star Sports 1 Telugu",
       "status": "failed",
@@ -313,16 +312,6 @@
         "http_code": 450,
         "error": "",
         "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/WDVLive/index.mpd?__hdnea__=st=1788762544~exp=1788784144~acl=/bpk-tv/Star_Sports_1_Kannada_BTS/WDVLive/*~hmac=d7dc8a33d5de4bb3cd7abbdd71ad32daf85c79661bca6006dda3505793d18d47"
-      }
-    },
-    {
-      "channel_id": "1122",
-      "channel_name": "Star Sports 2 Kannada",
-      "status": "failed",
-      "error_details": {
-        "http_code": 450,
-        "error": "",
-        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_2_Kannada_BTS/WDVLive/index.mpd?__hdnea__=st=1788741576~exp=1788763176~acl=/bpk-tv/Star_Sports_2_Kannada_BTS/WDVLive/*~hmac=762d53ba156616e62c18ca0455ef97580b235f3ce3dfb7938a6b21cdeb5c20f5"
       }
     },
     {
