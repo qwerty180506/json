@@ -2,7 +2,7 @@
   "total_channels": 36,
   "successful_channels": 0,
   "failed_channels": 36,
-  "timestamp": "2026-09-09 12:15:58",
+  "timestamp": "2026-09-09 12:31:37",
   "successful_results": [],
   "failed_results": [
     {
@@ -320,8 +320,8 @@
       "channel_name": "Star Sports 2 Kannada",
       "status": "failed",
       "error_details": {
-        "http_code": 500,
-        "error": "",
+        "http_code": 0,
+        "error": "OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to game.playindia.fun:443 ",
         "final_url": "https://game.playindia.fun/Jtv/YxMhkt/Jtv.mpd?id=1122"
       }
     },
