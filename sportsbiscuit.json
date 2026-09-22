@@ -1,297 +1,819 @@
 {
-  "total_channels": 36,
-  "successful_channels": 36,
-  "failed_channels": 0,
-  "timestamp": "2026-09-22 16:15:24",
-  "successful_results": [
+  "total_channels": 81,
+  "successful_channels": 0,
+  "failed_channels": 81,
+  "timestamp": "2026-09-22 17:16:46",
+  "successful_results": [],
+  "failed_results": [
     {
       "channel_id": "146",
       "channel_name": "History TV18 HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790095714~exp=1790099314~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=01af7a9da44132da0998c106db7745e13c1c30feda9c300a407fbedd8f9f37d2"
+      }
     },
     {
       "channel_id": "164",
       "channel_name": "Travelxp HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790095990~exp=1790099590~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=0db978672f21d1b9142be0df043d5de91f6682a8ab604ef8e0ab4f432f01641d"
+      }
     },
     {
       "channel_id": "167",
       "channel_name": "Zee TV HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790096289~exp=1790099889~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=b93aa69ac88c61a4e4abf9d4b1f659c5854fa62b94b2f7f1cc62754288ace742"
+      }
     },
     {
       "channel_id": "415",
       "channel_name": "Zee Anmol Cinema",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/index.mpd?__hdnea__=st=1790094548~exp=1790098148~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=1b43524b22b90468b81847c984018e9717b491b9db0e5a77f24cb0ad58a8f2eb"
+      }
     },
     {
       "channel_id": "472",
       "channel_name": "And TV HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790096292~exp=1790099892~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=5d75114f9b5061be5a873277463da6e4028dec0f75f3d4eb559649a7b51e1759"
+      }
     },
     {
       "channel_id": "562",
       "channel_name": "Travelxp HD Hindi",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd?__hdnea__=st=1790095562~exp=1790099162~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=048edd141f26856bf3041a3bd89ad4ff0f4a11e911386b7797e0ab3d5a236115"
+      }
     },
     {
       "channel_id": "821",
       "channel_name": "Sony BBC Earth HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd?__hdnea__=st=1790094253~exp=1790097853~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=c1201bca5d1da5383be6ab7a8fbcbfa0139d2e40aeba9bc7c810bf634e990b3d"
+      }
     },
     {
       "channel_id": "1115",
       "channel_name": "Star Movies",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_BTS/WDVLive/index.mpd?__hdnea__=st=1790093473~exp=1790115073~acl=/bpk-tv/Star_Movies_BTS/WDVLive/*~hmac=891e35659a4f6f03f32eafb80ba0c2792fa68e3f568fcc0287009e183a1797ac"
+      }
     },
     {
       "channel_id": "1332",
       "channel_name": "Nat Geo Wild HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790094029~exp=1790097629~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=31ec9a1bfdbcfb7e8e9e59cf39105d15d94bdc4ef9df95e9a926e15cf3213037"
+      }
     },
     {
       "channel_id": "1335",
       "channel_name": "National Geographic HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790095751~exp=1790099351~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=8dbabad4fd234c23b1a26cc828eb781a8bba5bcb490e07ecbf830ffc36d0fc3e"
+      }
     },
     {
       "channel_id": "1668",
       "channel_name": "And Xplor HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790094183~exp=1790097783~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=7a2b5cd05efbd4a1cc9f46d4829bac9d1c90f421514a2fb29906c2918c9c3138"
+      }
     },
     {
       "channel_id": "3096",
       "channel_name": "Star Gold 2 HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790096299~exp=1790099899~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=e68082daaeec8d4d287109578933846a942c1735b0a5cd6d5e22e5cd58d4702d"
+      }
     },
     {
       "channel_id": "3276",
       "channel_name": "Star Movies Select",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Movies_Select_BTS/WDVLive/index.mpd?__hdnea__=st=1790090168~exp=1790111768~acl=/bpk-tv/Star_Movies_Select_BTS/WDVLive/*~hmac=6546301d19a3d79beac4cb6639068f4a37d0a1c55725af2df01effea04489ac1"
+      }
     },
     {
       "channel_id": "460",
       "channel_name": "Star Sports Select 1 HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/index.mpd?__hdnea__=st=1790082811~exp=1790104411~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=2375f0125850b79080df8f8ca601d8ddeab4743390c4bb96f9756cf9f0b53d38"
+      }
     },
     {
       "channel_id": "1123",
       "channel_name": "Star Sports Select 1",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_1_BTS/WDVLive/index.mpd?__hdnea__=st=1790083241~exp=1790104841~acl=/bpk-tv/Star_Sports_Select_1_BTS/WDVLive/*~hmac=40f20841a8bb96fdcb2f5b95c954b0eeda6ea788208441357eacc0acac234ee5"
+      }
     },
     {
       "channel_id": "461",
       "channel_name": "Star Sports Select 2 HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/index.mpd?__hdnea__=st=1790082917~exp=1790104517~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=b6483a443e11648fe9328a39aaafd61260ea01e2160125fc88d5f6dac2f8ab08"
+      }
     },
     {
       "channel_id": "1114",
       "channel_name": "Star Sports Select 2",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_Select_2_BTS/WDVLive/index.mpd?__hdnea__=st=1790083240~exp=1790104840~acl=/bpk-tv/Star_Sports_Select_2_BTS/WDVLive/*~hmac=84b989a8117cdf0c839ecd43cb4d1a6192b25f6596fcab6b6a310d63efcf7718"
+      }
     },
     {
       "channel_id": "1106",
       "channel_name": "Star Sports 1 HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/WDVLive/index.mpd?__hdnea__=st=1790083162~exp=1790104762~acl=/bpk-tv/Star_Sports_HD1_BTS/WDVLive/*~hmac=733193fcd30f89c6bcd9984d2f72f125543f3bde57e05647b81566d87b66ec24"
+      }
     },
     {
       "channel_id": "1142",
       "channel_name": "Star Sports 1",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_BTS/WDVLive/index.mpd?__hdnea__=st=1790083241~exp=1790104841~acl=/bpk-tv/Star_Sports_1_BTS/WDVLive/*~hmac=610738b9a77554a6659f727325f30f441e5e6394229276e738a16f5c3fdd486c"
+      }
     },
     {
       "channel_id": "1108",
       "channel_name": "Star Sports 1 Hindi HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/index.mpd?__hdnea__=st=1790078599~exp=1790100199~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=600e1f86681c03a308fc928333e553f8718bded2c9e95ea9023538176b3257c9"
+      }
     },
     {
       "channel_id": "362",
       "channel_name": "Star Sports 1 Hindi",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/index.mpd?__hdnea__=st=1790082917~exp=1790104517~acl=/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/*~hmac=569a9aeb5cc48bd03be1cb79ac36cfbbb016941c1ccbf67d81626b0c04109513"
+      }
     },
     {
       "channel_id": "1109",
       "channel_name": "Star Sports 2 HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD2_BTS/WDVLive/index.mpd?__hdnea__=st=1790083515~exp=1790105115~acl=/bpk-tv/Star_Sports_HD2_BTS/WDVLive/*~hmac=07b899064ebece69e6651dd38d320542eb58461a70fe2b2728c48d4f3c178e7e"
+      }
     },
     {
       "channel_id": "1141",
       "channel_name": "Star Sports 2",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_2_BTS/WDVLive/index.mpd?__hdnea__=st=1790083514~exp=1790105114~acl=/bpk-tv/Star_Sports_2_BTS/WDVLive/*~hmac=50a3c2d213d6b4417e29e387fc08ced3a76b4551139358819ae684674d5301d3"
+      }
     },
     {
       "channel_id": "1984",
       "channel_name": "Star Sports 2 Hindi HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/index.mpd?__hdnea__=st=1790088221~exp=1790109821~acl=/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/*~hmac=7743fe58e1346263d28c23b72cc8cd11ac4da9905b961cb86038c4bbe5088450"
+      }
     },
     {
       "channel_id": "1985",
       "channel_name": "Star Sports 2 Hindi",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSports2Hin_BTS/WDVLive/index.mpd?__hdnea__=st=1790088328~exp=1790109928~acl=/bpk-tv/StarSports2Hin_BTS/WDVLive/*~hmac=4dd1195482aab708b782d087530d45730652ec5c094ea77eaf56d636c2a92639"
+      }
     },
     {
       "channel_id": "1389",
       "channel_name": "Star Sports 3",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_3_BTS/WDVLive/index.mpd?__hdnea__=st=1790088601~exp=1790110201~acl=/bpk-tv/Star_Sports_3_BTS/WDVLive/*~hmac=8d3e3ee9fd300cc62e5b82357aa9df90e6d1bcbb098f516d7aaeec22b66ba9da"
+      }
     },
     {
       "channel_id": "3277",
       "channel_name": "Star Sports 1 Tamil HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1790087538~exp=1790109138~acl=/bpk-tv/Star_Sports_1_Tamil_HD_BTS/WDVLive/*~hmac=9e23460e59c93cc684e8368f278854f53af382450ce8d0b2a9d3a077d979d80c"
+      }
     },
     {
       "channel_id": "1124",
       "channel_name": "Star Sports 1 Tamil",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/index.mpd?__hdnea__=st=1790087536~exp=1790109136~acl=/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/*~hmac=34298b16473dc61161fc110c3d07f371e0f69c10e73a46b43af57b9e3e2c3d82"
+      }
     },
     {
       "channel_id": "3278",
       "channel_name": "Star Sports 1 Telugu HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790087542~exp=1790109142~acl=/bpk-tv/Star_Sports_1_Telugu_HD_BTS/WDVLive/*~hmac=3adda34c757ec3d723a0c7485c4e6114171c39255694b6dbacc079d2d8541d2f"
+      }
     },
     {
       "channel_id": "1651",
       "channel_name": "Star Sports 1 Telugu",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_BTS/WDVLive/index.mpd?__hdnea__=st=1790088599~exp=1790110199~acl=/bpk-tv/Star_Sports_1_Telugu_BTS/WDVLive/*~hmac=0b9a47cee2b3756e1316b738e95c96013657b4aa29d0d758c07ba76157fac347"
+      }
     },
     {
       "channel_id": "1650",
       "channel_name": "Star Sports 1 Kannada",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/WDVLive/index.mpd?__hdnea__=st=1790088317~exp=1790109917~acl=/bpk-tv/Star_Sports_1_Kannada_BTS/WDVLive/*~hmac=1ce85dd6cd6f12716ee3f06e0e97de9cc5acdb30223918ca9ee2a0362277241c"
+      }
     },
     {
       "channel_id": "1122",
       "channel_name": "Star Sports 2 Kannada",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_2_Kannada_BTS/WDVLive/index.mpd?__hdnea__=st=1790083761~exp=1790105361~acl=/bpk-tv/Star_Sports_2_Kannada_BTS/WDVLive/*~hmac=e3fd3786244257868f3468c4baa72150ddb107c1eee6f8f877f4b445d6600c8c"
+      }
     },
     {
       "channel_id": "3273",
       "channel_name": "Star Sports 2 Tamil HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports2_Tamil_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790088212~exp=1790109812~acl=/bpk-tv/Star_Sports2_Tamil_HD_BTS/WDVLive/*~hmac=236eb504308c8cd7ee03acd325eabacc7da12dbbc79542875a498ffa3c72f031"
+      }
     },
     {
       "channel_id": "2853",
       "channel_name": "Star Sports 2 Tamil",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSports2Tamil_BTS/WDVLive/index.mpd?__hdnea__=st=1790088317~exp=1790109917~acl=/bpk-tv/StarSports2Tamil_BTS/WDVLive/*~hmac=99b3843bfcf67d16422183539600bf4d993389dd08c52a639afe592832fef04c"
+      }
     },
     {
       "channel_id": "3274",
       "channel_name": "Star Sports 2 Telugu HD",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports2_Telugu_HD_BTS/WDVLive/index.mpd?__hdnea__=st=1790088320~exp=1790109920~acl=/bpk-tv/Star_Sports2_Telugu_HD_BTS/WDVLive/*~hmac=924442c723fcea75104a48d1b094a94d6813182aff7b2a02fc19d903328c1048"
+      }
     },
     {
       "channel_id": "2852",
       "channel_name": "Star Sports 2 Telugu",
-      "status": "success",
-      "http_code": 200,
-      "final_url": "https://denverisalive.github.io/Intro/manifest/token/token_expired.mpd",
-      "playlist_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<MPD xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n\txmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\txsi:schemaLocation=\"urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd\"\n\tprofiles=\"urn:mpeg:dash:profile:isoff-live:2011\"\n\ttype=\"static\"\n\tmediaPresentationDuration=\"PT28.0S\"\n\tmaxSegmentDuration=\"PT5.0S\"\n\tminBufferTime=\"PT10.0S\">\n\t<ProgramInformation>\n\t</ProgramInformation>\n\t<ServiceDescription id=\"0\">\n\t</ServiceDescription>\n\t<Period id=\"0\" start=\"PT0.0S\">\n\t\t<AdaptationSet id=\"0\" contentType=\"video\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" frameRate=\"105125/1752\" maxWidth=\"1920\" maxHeight=\"1080\" par=\"16:9\" lang=\"eng\">\n\t\t\t<Representation id=\"0\" mimeType=\"video/mp4\" codecs=\"avc1.64002a\" bandwidth=\"6012586\" width=\"1920\" height=\"1080\" sar=\"1:1\">\n\t\t\t\t<SegmentTemplate timescale=\"16000\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"79984\" />\n\t\t\t\t\t\t<S d=\"80000\" r=\"3\" />\n\t\t\t\t\t\t<S d=\"48528\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t\t<AdaptationSet id=\"1\" contentType=\"audio\" startWithSAP=\"1\" segmentAlignment=\"true\" bitstreamSwitching=\"true\" lang=\"eng\">\n\t\t\t<Representation id=\"1\" mimeType=\"audio/mp4\" codecs=\"mp4a.40.2\" bandwidth=\"131297\" audioSamplingRate=\"44100\">\n\t\t\t\t<AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\" />\n\t\t\t\t<SegmentTemplate timescale=\"44100\" initialization=\"init-stream$RepresentationID$.m4s\" media=\"chunk-stream$RepresentationID$-$Number%05d$.m4s\" startNumber=\"1\">\n\t\t\t\t\t<SegmentTimeline>\n\t\t\t\t\t\t<S t=\"0\" d=\"221153\" />\n\t\t\t\t\t\t<S d=\"220160\" />\n\t\t\t\t\t\t<S d=\"221184\" />\n\t\t\t\t\t\t<S d=\"220160\" r=\"1\" />\n\t\t\t\t\t\t<S d=\"133120\" />\n\t\t\t\t\t</SegmentTimeline>\n\t\t\t\t</SegmentTemplate>\n\t\t\t</Representation>\n\t\t</AdaptationSet>\n\t</Period>\n</MPD>\n"
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/StarSports2Telugu_BTS/WDVLive/index.mpd?__hdnea__=st=1790088552~exp=1790110152~acl=/bpk-tv/StarSports2Telugu_BTS/WDVLive/*~hmac=42a3598e4a06484c5cba1175cc0f26bfb88f7efcc60a6a494896aae828081cc0"
+      }
+    },
+    {
+      "channel_id": "153",
+      "channel_name": "Zee Talkies",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTalkies_BTS/WDVLive/index.mpd?__hdnea__=st=1790095684~exp=1790099284~acl=/bpk-tv/ZeeTalkies_BTS/WDVLive/*~hmac=85a4cdb096f39675c77290bb8b05d85b602f1d8941fb95664f886b7aabed40a8"
+      }
+    },
+    {
+      "channel_id": "165",
+      "channel_name": "Zee Cinema HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeCinemaHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790094328~exp=1790097928~acl=/bpk-tv/ZeeCinemaHD_BTS/WDVLive/*~hmac=7f63247ac6d654e7a5312811c121eb03aed6c2578ee28b43adffbbe1962ed766"
+      }
+    },
+    {
+      "channel_id": "413",
+      "channel_name": "Zee Cinemalu",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeCinemalu_BTS/WDVLive/index.mpd?__hdnea__=st=1790095686~exp=1790099286~acl=/bpk-tv/ZeeCinemalu_BTS/WDVLive/*~hmac=ffb7ddc9358b7e246ee79086d5b0a6ea7f3e93c809be9cca39c01ff3a9fd0e7f"
+      }
+    },
+    {
+      "channel_id": "414",
+      "channel_name": "Zee Yuva",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeYuva_BTS/WDVLive/index.mpd?__hdnea__=st=1790095686~exp=1790099286~acl=/bpk-tv/ZeeYuva_BTS/WDVLive/*~hmac=d7b41402a119bcd601e1aabd9a7134b2e8c572b167369e48bd2cae268a1d3c91"
+      }
+    },
+    {
+      "channel_id": "442",
+      "channel_name": "Zee 24 Taas",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_24_Taas_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "445",
+      "channel_name": "Zee Marathi",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeMarathi_BTS/WDVLive/index.mpd?__hdnea__=st=1790095559~exp=1790099159~acl=/bpk-tv/ZeeMarathi_BTS/WDVLive/*~hmac=37098476505ed0e297f12bba91961af3a8baf9495092e482725a42eee2b01a16"
+      }
+    },
+    {
+      "channel_id": "464",
+      "channel_name": "Zee 24 Ghanta",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/24_Ghanta_TV_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "484",
+      "channel_name": "Zee Cinema",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeCinema_BTS/WDVLive/index.mpd?__hdnea__=st=1790095441~exp=1790099041~acl=/bpk-tv/ZeeCinema_BTS/WDVLive/*~hmac=7b26a15e77461b0d4dbbfd8c6b0fb0bf0afd1db3469231a34e8ec40509cf3583"
+      }
+    },
+    {
+      "channel_id": "487",
+      "channel_name": "Zee Bollywood",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeBollywood_BTS/WDVLive/index.mpd?__hdnea__=st=1790094470~exp=1790098070~acl=/bpk-tv/ZeeBollywood_BTS/WDVLive/*~hmac=b145f3984c285d63b00a1898c86f2a615cbd7b12602d6aa4207923807b414d25"
+      }
+    },
+    {
+      "channel_id": "488",
+      "channel_name": "Zee Action",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAction_BTS/WDVLive/index.mpd?__hdnea__=st=1790097158~exp=1790100758~acl=/bpk-tv/ZeeAction_BTS/WDVLive/*~hmac=ec22347e103490411ab315c98948bcadd3c2b38e6174d7d3f621292414553247"
+      }
+    },
+    {
+      "channel_id": "504",
+      "channel_name": "Zee News",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/Zee_News_BTS/WDVLive/index.mpd?__hdnea__=st=1790097089~exp=1790100689~acl=/bpk-tv/Zee_News_BTS/WDVLive/*~hmac=d5d1d14b2cd48b5156de4640c52f36b3ebab3a2dc117db349cdd4aab31620999"
+      }
+    },
+    {
+      "channel_id": "572",
+      "channel_name": "Zee UP UK",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Living_Foodz_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "625",
+      "channel_name": "Zee Bangla",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeBangla_BTS/WDVLive/index.mpd?__hdnea__=st=1790096327~exp=1790099927~acl=/bpk-tv/ZeeBangla_BTS/WDVLive/*~hmac=9e18b79375193a7446c71d9d5e1676c536e70609f52ce021c7aecb846810d115"
+      }
+    },
+    {
+      "channel_id": "628",
+      "channel_name": "Zee Tamil",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTamil_BTS/WDVLive/index.mpd?__hdnea__=st=1790094469~exp=1790098069~acl=/bpk-tv/ZeeTamil_BTS/WDVLive/*~hmac=baad88963978bd97acea62eeed148503327f8bb9c3fc101f3c2bb22e8ea43e93"
+      }
+    },
+    {
+      "channel_id": "638",
+      "channel_name": "Zee Telugu",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTelugu_BTS/WDVLive/index.mpd?__hdnea__=st=1790096330~exp=1790099930~acl=/bpk-tv/ZeeTelugu_BTS/WDVLive/*~hmac=05e47a3404d282ed7eda4bdb2a9e51af2a182e6e1d3127520b6bd28d10317ae7"
+      }
+    },
+    {
+      "channel_id": "652",
+      "channel_name": "Zee Bharat",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_SANGAM_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "654",
+      "channel_name": "Zee Punjab Haryana HP",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_Punjabi_HP_Haryana_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "657",
+      "channel_name": "Zee Business",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_Business_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "658",
+      "channel_name": "Zee MP Chattisgarh",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_News_MP_Chattisgarh_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "659",
+      "channel_name": "Zee Rajasthan",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_Rajasthan_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "661",
+      "channel_name": "Zee Bihar Jharkhand",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_Purvaiya_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "689",
+      "channel_name": "Zee Kannada",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeKannada_BTS/WDVLive/index.mpd?__hdnea__=st=1790097234~exp=1790100834~acl=/bpk-tv/ZeeKannada_BTS/WDVLive/*~hmac=149b4355a9e33454043c845385811286d97188d799f51511db578599792a119b"
+      }
+    },
+    {
+      "channel_id": "722",
+      "channel_name": "Zee Sarthak",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeSarthak_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "724",
+      "channel_name": "Zee Delhi NCR Haryana",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_Kalinga_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "929",
+      "channel_name": "Zee 24 Kalak",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_24_Kalak_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "1319",
+      "channel_name": "Zee Cafe HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeCafeHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790094651~exp=1790098251~acl=/bpk-tv/ZeeCafeHD_BTS/WDVLive/*~hmac=a663b24570f5fe695b7dd4594dcb37c72e8dcce935c64d3cee9f17cb1b813a90"
+      }
+    },
+    {
+      "channel_id": "1351",
+      "channel_name": "Zee TV",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTV_BTS/WDVLive/index.mpd?__hdnea__=st=1790096915~exp=1790100515~acl=/bpk-tv/ZeeTV_BTS/WDVLive/*~hmac=1185de799fa47e3c3ffa8ab9f7a960f3c361bf79bef9e7f9b4b4ae8820253442"
+      }
+    },
+    {
+      "channel_id": "1354",
+      "channel_name": "Zee Telugu HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTeluguHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790094470~exp=1790098070~acl=/bpk-tv/ZeeTeluguHD_BTS/WDVLive/*~hmac=78ff6a2975fc7c9ac7699cb2f26bab95941359c83c417780501174b98d47d098"
+      }
+    },
+    {
+      "channel_id": "1356",
+      "channel_name": "Zee Tamil HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTamilHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790094469~exp=1790098069~acl=/bpk-tv/ZeeTamilHD_BTS/WDVLive/*~hmac=659e1da14c5803b9f7f9675d1d43c45d5758ad5ad381f3ad622ca08d9ddf77b0"
+      }
+    },
+    {
+      "channel_id": "1358",
+      "channel_name": "Zee Talkies HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTalkiesHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790094557~exp=1790098157~acl=/bpk-tv/ZeeTalkiesHD_BTS/WDVLive/*~hmac=ae7ab6f5eb28474f5ebdee78350609fef6f099428d02af8e37c998ca375da400"
+      }
+    },
+    {
+      "channel_id": "1360",
+      "channel_name": "Zee Marathi HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeMarathiHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790097242~exp=1790100842~acl=/bpk-tv/ZeeMarathiHD_BTS/WDVLive/*~hmac=c4c976d74888ac5825c680edd4a3d580e44ea1ee01e79780cb9e90ffd6428200"
+      }
+    },
+    {
+      "channel_id": "1362",
+      "channel_name": "Zee Kannada HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeKannadaHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790094469~exp=1790098069~acl=/bpk-tv/ZeeKannadaHD_BTS/WDVLive/*~hmac=ca9682c1f76eb8b1fa77040fc992150bc8347cc936951434bda61db6d22161af"
+      }
+    },
+    {
+      "channel_id": "1363",
+      "channel_name": "Zee Cinemalu HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeCinemaluHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790094610~exp=1790098210~acl=/bpk-tv/ZeeCinemaluHD_BTS/WDVLive/*~hmac=55980af2410fc2d2c4e6621b41ac0bba35d04de7d557c2360b9cf1b04f9bf2ea"
+      }
+    },
+    {
+      "channel_id": "1641",
+      "channel_name": "Zee Keralam HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeKeralamHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790094468~exp=1790098068~acl=/bpk-tv/ZeeKeralamHD_BTS/WDVLive/*~hmac=a60d2b883354fea4dfa4d781f697c139b8713781af348ec1bbcd8b7e88c08eef"
+      }
+    },
+    {
+      "channel_id": "1691",
+      "channel_name": "Zee Classic",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeClassicSD_BTS/WDVLive/index.mpd?__hdnea__=st=1790095687~exp=1790099287~acl=/bpk-tv/ZeeClassicSD_BTS/WDVLive/*~hmac=4875caff92ab5078ad19232aaa6ce3f16d512bb53a7a0673ad94693c7ef01f08"
+      }
+    },
+    {
+      "channel_id": "1745",
+      "channel_name": "Zee Biskope",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeBiskope_BTS/WDVLive/index.mpd?__hdnea__=st=1790095735~exp=1790099335~acl=/bpk-tv/ZeeBiskope_BTS/WDVLive/*~hmac=1c7167ea6641f127dfd1fcd97b132688b2e764e4b8e01b653d2225232937210d"
+      }
+    },
+    {
+      "channel_id": "1746",
+      "channel_name": "Zee Power HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeePowerHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790095735~exp=1790099335~acl=/bpk-tv/ZeePowerHD_BTS/WDVLive/*~hmac=c85073d59e3b38d880f5dd9dca2b74b69acbe0d8367b34b98b40410a6149d4ef"
+      }
+    },
+    {
+      "channel_id": "1751",
+      "channel_name": "Zee Punjabi",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ZeePunjabi_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "1977",
+      "channel_name": "Zee Bangla HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeBanglaHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790095142~exp=1790098742~acl=/bpk-tv/ZeeBanglaHD_BTS/WDVLive/*~hmac=098cd81b5dd00a4872f8d7489e9be1ab632441e287dbf3084a51159aa17892d9"
+      }
+    },
+    {
+      "channel_id": "2742",
+      "channel_name": "Zee Kannada News",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_Kannada_News_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "2757",
+      "channel_name": "Zee Zest HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeZestHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790096047~exp=1790099647~acl=/bpk-tv/ZeeZestHD_BTS/WDVLive/*~hmac=be490099c8ec192955eab683132f4be4a91b29930dfd4d47b3663b03575a6c8c"
+      }
+    },
+    {
+      "channel_id": "2761",
+      "channel_name": "Zee Anmol Cinema 2",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAnmolCinema2_BTS/WDVLive/index.mpd?__hdnea__=st=1790096351~exp=1790099951~acl=/bpk-tv/ZeeAnmolCinema2_BTS/WDVLive/*~hmac=c45f6e3511a8f18265bd43b8256ebd40be6ce36d778b1658c856d809de68abda"
+      }
+    },
+    {
+      "channel_id": "3031",
+      "channel_name": "Zee Telugu News",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/Zee_Telugu_News_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
+    },
+    {
+      "channel_id": "3051",
+      "channel_name": "Zee Thirai HD",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeThiraiHD_BTS/WDVLive/index.mpd?__hdnea__=st=1790095782~exp=1790099382~acl=/bpk-tv/ZeeThiraiHD_BTS/WDVLive/*~hmac=32b46cf4b9e23d2a22a31e436e3e255ba196b3331813be3dfda0cce36b13b095"
+      }
+    },
+    {
+      "channel_id": "3476",
+      "channel_name": "Zee Bangla Sonar",
+      "status": "failed",
+      "error_details": {
+        "http_code": 450,
+        "error": "",
+        "final_url": "https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeBanglaSonar_MOB/WDVLive/index.mpd?__hdnea__=st=1790096407~exp=1790118007~acl=/*~hmac=a6dfec30d23146c17c78107ed283d8ca6c7c8e43c5deea2b83a6441e1560a896"
+      }
     }
-  ],
-  "failed_results": []
+  ]
 }
